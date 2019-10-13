@@ -10,7 +10,7 @@ import numpy as np
 from operator import mul
 from functools import reduce
 from glumpy.log import log
-from . texture import Texture2D
+from . texture import Texture2D, Texture3D
 
 
 def dtype_reduce(dtype, level=0, depth=0):
